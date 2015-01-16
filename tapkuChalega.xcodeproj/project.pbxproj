@@ -14,6 +14,10 @@
 		1DFD7E9B1A68E2A800EB8AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD7E9A1A68E2A800EB8AA9 /* Images.xcassets */; };
 		1DFD7E9E1A68E2A800EB8AA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD7E9C1A68E2A800EB8AA9 /* LaunchScreen.xib */; };
 		1DFD7EAA1A68E2A800EB8AA9 /* tapkuChalegaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD7EA91A68E2A800EB8AA9 /* tapkuChalegaTests.m */; };
+		1DFD7EB41A68E2D100EB8AA9 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD7EB31A68E2D100EB8AA9 /* TapkuLibrary.bundle */; };
+		1DFD7EC01A68E34800EB8AA9 /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD7EBB1A68E33500EB8AA9 /* libTapkuLibrary.a */; };
+		1DFD7EC21A68E35000EB8AA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD7EC11A68E35000EB8AA9 /* MapKit.framework */; };
+		1DFD7EC41A68E35800EB8AA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFD7EC31A68E35800EB8AA9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +27,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1DFD7E891A68E2A800EB8AA9;
 			remoteInfo = tapkuChalega;
+		};
+		1DFD7EBA1A68E33500EB8AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFD7EB51A68E33500EB8AA9 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		1DFD7EBC1A68E33500EB8AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFD7EB51A68E33500EB8AA9 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		1DFD7EBE1A68E34000EB8AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFD7EB51A68E33500EB8AA9 /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TapkuLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,6 +65,10 @@
 		1DFD7EA31A68E2A800EB8AA9 /* tapkuChalegaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapkuChalegaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DFD7EA81A68E2A800EB8AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DFD7EA91A68E2A800EB8AA9 /* tapkuChalegaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapkuChalegaTests.m; sourceTree = "<group>"; };
+		1DFD7EB31A68E2D100EB8AA9 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapkuLibrary.bundle; sourceTree = "<group>"; };
+		1DFD7EB51A68E33500EB8AA9 /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = ../../tapkulibrary/src/TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
+		1DFD7EC11A68E35000EB8AA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1DFD7EC31A68E35800EB8AA9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFD7EC41A68E35800EB8AA9 /* QuartzCore.framework in Frameworks */,
+				1DFD7EC21A68E35000EB8AA9 /* MapKit.framework in Frameworks */,
+				1DFD7EC01A68E34800EB8AA9 /* libTapkuLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,10 @@
 		1DFD7E811A68E2A800EB8AA9 = {
 			isa = PBXGroup;
 			children = (
+				1DFD7EC31A68E35800EB8AA9 /* QuartzCore.framework */,
+				1DFD7EC11A68E35000EB8AA9 /* MapKit.framework */,
+				1DFD7EB51A68E33500EB8AA9 /* TapkuLibrary.xcodeproj */,
+				1DFD7EB31A68E2D100EB8AA9 /* TapkuLibrary.bundle */,
 				1DFD7E8C1A68E2A800EB8AA9 /* tapkuChalega */,
 				1DFD7EA61A68E2A800EB8AA9 /* tapkuChalegaTests */,
 				1DFD7E8B1A68E2A800EB8AA9 /* Products */,
@@ -119,6 +155,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1DFD7EB61A68E33500EB8AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD7EBB1A68E33500EB8AA9 /* libTapkuLibrary.a */,
+				1DFD7EBD1A68E33500EB8AA9 /* LogicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +178,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1DFD7EBF1A68E34000EB8AA9 /* PBXTargetDependency */,
 			);
 			name = tapkuChalega;
 			productName = tapkuChalega;
@@ -186,6 +232,12 @@
 			mainGroup = 1DFD7E811A68E2A800EB8AA9;
 			productRefGroup = 1DFD7E8B1A68E2A800EB8AA9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1DFD7EB61A68E33500EB8AA9 /* Products */;
+					ProjectRef = 1DFD7EB51A68E33500EB8AA9 /* TapkuLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1DFD7E891A68E2A800EB8AA9 /* tapkuChalega */,
@@ -194,12 +246,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1DFD7EBB1A68E33500EB8AA9 /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = 1DFD7EBA1A68E33500EB8AA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1DFD7EBD1A68E33500EB8AA9 /* LogicTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.xctest;
+			remoteRef = 1DFD7EBC1A68E33500EB8AA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		1DFD7E881A68E2A800EB8AA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1DFD7E991A68E2A800EB8AA9 /* Main.storyboard in Resources */,
+				1DFD7EB41A68E2D100EB8AA9 /* TapkuLibrary.bundle in Resources */,
 				1DFD7E9E1A68E2A800EB8AA9 /* LaunchScreen.xib in Resources */,
 				1DFD7E9B1A68E2A800EB8AA9 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +310,11 @@
 			isa = PBXTargetDependency;
 			target = 1DFD7E891A68E2A800EB8AA9 /* tapkuChalega */;
 			targetProxy = 1DFD7EA41A68E2A800EB8AA9 /* PBXContainerItemProxy */;
+		};
+		1DFD7EBF1A68E34000EB8AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapkuLibrary;
+			targetProxy = 1DFD7EBE1A68E34000EB8AA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,8 +420,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/nikitsaraf/tapkulibrary/src,
+				);
 				INFOPLIST_FILE = tapkuChalega/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,8 +436,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/nikitsaraf/tapkulibrary/src,
+				);
 				INFOPLIST_FILE = tapkuChalega/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
